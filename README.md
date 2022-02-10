@@ -31,7 +31,9 @@ Support OFRP, SHRP, TWRP compilation and production
 | `DEVICE_TREE_BRANCH` | Device branch | twrp-9.0 |
 | `DEVICE_PATH` | Device location | device/xiaomi/Archytas |
 | `DEVICE_NAME` | Model name | Archytas |
-
+repo init --depth=1 -u https://github.com/PitchBlackRecoveryProject/manifest_pb.git -b android-10.0
+repo sync -j$(nproc --all) --force-sync
+git clone https://github.com/OneGameKoTT/android_device_oukitel_c18pro-pbrp --depth=1 device/oukitel/c18pro
 -----
 
 ## how to use
