@@ -27,10 +27,10 @@ Support OFRP, SHRP, TWRP compilation and production
 | `MANIFEST_TYPE` | Source Type | omni |
 | `MANIFEST_URL` | Source address| [twrp-12.1](https://github.com/transsion-mt6789-recovery/twrp-device_infinix_Infinix-X6833B.git) |
 | `MANIFEST_BRANCH` | Source branch | twrp-12.1|
-| `DEVICE_TREE_URL` | Device address| https://github.com/azwhikaru/twrp_device_xiaomi_archytas |
+| `DEVICE_TREE_URL` | Device address| twrp-12.1](https://github.com/transsion-mt6789-recovery/twrp-device_infinix_Infinix-X6833B.git) |
 | `DEVICE_TREE_BRANCH` | Device branch | twrp-12.1 |
-| `DEVICE_PATH` | Device location | device/xiaomi/Archytas |
-| `DEVICE_NAME` | Model name | Archytas |
+| `DEVICE_PATH` | Device location | Blackview Shark 8 |
+| `DEVICE_NAME` | Shark 8 | Archytas |
 repo init --depth=1 -u https://github.com/PitchBlackRecoveryProject/manifest_pb.git -b android-10.0
 repo sync -j$(nproc --all) --force-sync
 git clone https://github.com/OneGameKoTT/android_device_oukitel_c18pro-pbrp --depth=1 device/oukitel/c18pro
