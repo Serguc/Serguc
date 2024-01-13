@@ -25,10 +25,10 @@ Support OFRP, SHRP, TWRP compilation and production
 | Name | Description | Example |
 | ------------ | -------------------- | ------------ |
 | `MANIFEST_TYPE` | Source Type | omni |
-| `MANIFEST_URL` | Source address| https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git |
-| `MANIFEST_BRANCH` | Source branch | twrp-9.0 |
+| `MANIFEST_URL` | Source address| [twrp-12.1](https://github.com/transsion-mt6789-recovery/twrp-device_infinix_Infinix-X6833B.git) |
+| `MANIFEST_BRANCH` | Source branch | twrp-12.1|
 | `DEVICE_TREE_URL` | Device address| https://github.com/azwhikaru/twrp_device_xiaomi_archytas |
-| `DEVICE_TREE_BRANCH` | Device branch | twrp-9.0 |
+| `DEVICE_TREE_BRANCH` | Device branch | twrp-12.1 |
 | `DEVICE_PATH` | Device location | device/xiaomi/Archytas |
 | `DEVICE_NAME` | Model name | Archytas |
 repo init --depth=1 -u https://github.com/PitchBlackRecoveryProject/manifest_pb.git -b android-10.0
